@@ -7,6 +7,7 @@ const forma4 = document.getElementById('forma4')
 const forma5 = document.getElementById('forma5')
 const forma6 = document.getElementById('forma6')
 const forma7 = document.getElementById('forma7')
+const forma8 = document.getElementById('forma8')
 
 function mudarCor () {
     forma1.classList.toggle('vermelho')
@@ -36,6 +37,10 @@ function deslizar () {
     forma7.classList.toggle('deslizar')
 }
 
+function diminuir () {
+    forma8.classList.toggle('diminuir')
+}
+
 forma1.addEventListener('click', mudarCor)
 forma2.addEventListener('click', mudarForma)
 forma3.addEventListener('click', mudarImagem)
@@ -43,3 +48,4 @@ forma4.addEventListener('click', girar)
 forma5.addEventListener('click', desaparecer)
 forma6.addEventListener('click', aumentar)
 forma7.addEventListener('click', deslizar)
+forma8.addEventListener('click', diminuir)
